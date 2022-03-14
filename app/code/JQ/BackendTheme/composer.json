@@ -1,0 +1,15 @@
+{
+    "name": "jq/module-backend_theme",
+    "description": "",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JQ\\BackendTheme\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

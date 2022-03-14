@@ -1,0 +1,183 @@
+@color-phoenix: #eb5202;
+@font-size__base: 1.4rem;
+@line-height__base: 1.36;
+
+@focus__color: @color-blue-dodger;
+@focus__box-shadow: 0 0 0 1px @focus__color;
+
+@menu__background-color: #000000;
+@menu-item__hover__background-color: #151515;
+@menu-item__active__background-color: #3a3a3a;
+@submenu__background-color: #151515;
+@menu-item__color: #fff;
+@button-primary__background-color: #eb5202;
+@button-primary__hover__background-color: @color-phoenix-brown-almost;
+@button-primary__color: @color-white;
+@button-primary__hover__border-color: transparent;
+@button__hover__box-shadow: none;
+@submenu-link__color: @color-white;
+@action-dropdown__color: @color-black;
+@submenu-link__focus__background-color: darken(@color-black4-almost, 5%);
+@data-grid-th__background-color: #eb5202;
+@data-grid-th__color: @color-black;
+@field-label__required__color: #eb5202;
+@submenu-section-label__color:#eb5202;
+@menu-item__active__color:#eb5202;
+@login-page__background-color: #323232;
+@login-box__border: 0;
+@data-grid-th__background-color: #000; // default: #514943
+@data-grid-th__border-color: #8a837f;
+@data-grid-th__color: #fff;
+@message-system__background-color: #b3dbff;
+@message-system__border-color: transparent;
+@alert-icon__warning__color: #007bdb;
+
+.action-default {
+    border-radius: 25px !important;
+}
+
+.actions-split {
+  .action-toggle {
+    &.action-secondary,
+    &.secondary,
+    &.action-primary,
+    &.primary {
+      &:after {
+        border-color: @color-black transparent transparent transparent;
+      }
+    }
+  }
+}
+
+.page-actions {
+  .page-actions-buttons{
+    button {
+        text-shadow: none !important;
+    }
+  }
+}
+
+
+.dashboard-totals-item {
+  display: table-cell;
+  padding: 0 1rem 0 0;
+  width: 25%;
+
+  &:first-child {
+    .price {
+      color: @color-phoenix;
+    }
+  }
+}
+
+.dashboard-item-primary {
+  &:first-child {
+    .dashboard-sales-value {
+      color: @color-phoenix;
+    }
+  }
+}
+
+.data-grid-search-control-wrap {
+  .data-grid-search-control {
+    border-color:#cecece;
+    &:hover
+    {
+
+      border-color:#878787;
+    }
+  }
+}
+
+.page-wrapper {
+    width: ~'calc(100% - 15rem)';
+}
+
+.page-layout-admin-login {
+    background: #d22200 url("../images/magento-bg.webp");
+    background-size: cover;
+
+    .admin__legend
+    {
+        font-family: sans-serif;
+        color: @color-black;
+    }
+    .page-wrapper {
+        padding-top: 0;
+    }
+    .login-header {
+        width: 118px;
+    }
+    .login-content {
+        .form-actions {
+          width: 100%;
+          .actions {
+            .action-login {
+              width: 100%;
+            }
+          }
+          .links {
+            .action-forgotpassword {
+              color: @color-phoenix;
+            }
+          }
+        }
+    }
+}
+
+.login-header{
+  width: 215px;
+  height: auto;
+  margin: 0 auto 3rem;
+}
+
+.login-footer {
+    margin-top: 0;
+    top: ~'calc(100% - 20px)';
+}
+
+.menu-wrapper {
+    width: 13rem;
+    &._fixed ~ .page-wrapper {
+        margin-left: 13rem;
+    }
+    &:before {
+        width: 13rem;
+    }
+    .logo
+    {
+        padding: 0 0.5rem 0.5rem;
+        margin-bottom: 1rem;
+        .logo-img
+        {
+            height:100%;
+            width:auto;
+        }
+    }
+}
+
+.admin__menu {
+    .level-0 {
+        & > a {
+            padding: 1.2rem 1rem 1.2rem;
+            text-align: left;
+            position: relative;
+            padding-left: 4rem;
+            min-height: 5.5rem;
+            display: flex;
+            align-items: center;
+            &:before {
+                position: absolute;
+                display: inline-block;
+                margin-right: 0.5rem;
+                left: 0;
+                top: 1.3rem;
+                min-width: 3.5rem;
+                text-align: center;
+            }
+            & > span {
+                display: inline-block;
+            }
+        }
+    }
+}
