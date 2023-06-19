@@ -31,6 +31,7 @@
 @message-system__background-color: #b3dbff;
 @message-system__border-color: transparent;
 @alert-icon__warning__color: #007bdb;
+@sticky_spacer: 13rem;
 
 .action-default {
     border-radius: 25px !important;
@@ -179,5 +180,15 @@
                 display: inline-block;
             }
         }
+    }
+}
+
+.sticky-header {
+    left: @sticky_spacer;
+}
+
+.page-main-actions {
+    .page-actions._fixed {
+        left: @sticky_spacer;
     }
 }
