@@ -4,7 +4,7 @@
     <type name="Magento\Theme\Model\View\Design">
         <arguments>
             <argument name="themes" xsi:type="array">
-                <item name="adminhtml" xsi:type="string">JQ/backend_theme</item> <!-- Example: "Magento/backend" -->
+                <item name="adminhtml" xsi:type="string">jq-dev/azkarra_backend</item> <!-- Example: "Magento/backend" -->
             </argument>
         </arguments>
     </type>

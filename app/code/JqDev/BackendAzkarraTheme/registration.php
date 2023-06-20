@@ -1,6 +1,6 @@
 <?php
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'JQ_BackendTheme',
+    'JqDev_BackendAzkarraTheme',
     __DIR__
 );

@@ -9,6 +9,6 @@
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::THEME,
-    'adminhtml/JQ/backend_theme', // Example: 'adminhtml/Magento/backend'
+    'adminhtml/jq-dev/azkarra_backend', // Example: 'adminhtml/Magento/backend'
     __DIR__
 );

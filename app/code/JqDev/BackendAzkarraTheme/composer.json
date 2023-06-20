@@ -6,7 +6,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "JQ\\BackendTheme\\": ""
+            "JQ\\BackendAzkarraTheme\\": ""
         },
         "files": [
             "registration.php"
