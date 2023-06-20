@@ -2,9 +2,9 @@
 Magento 2 Backend (dashbord) theme (black & orange) 
 
 ## Screenshots
-![Backend theme - login page](https://raw.githubusercontent.com/jq91/M2_AzkarraBackendTheme/main/README-assets/login-page.png)
+![Backend theme - login page](https://raw.githubusercontent.com/dev-jq/M2_AzkarraBackendTheme/main/README-assets/login-page.png)
 
-![Backend theme - dashboard](https://raw.githubusercontent.com/jq91/M2_AzkarraBackendTheme/main/README-assets/dashboard.png)
+![Backend theme - dashboard](https://raw.githubusercontent.com/dev-jq/M2_AzkarraBackendTheme/main/README-assets/dashboard.png)
 
 ## Installation
 * Download zip file of this extension/theme
